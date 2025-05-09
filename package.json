@@ -1,0 +1,16 @@
+{
+  "name": "diamondz-ton-bridge",
+  "version": "1.0.0",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy": "node scripts/deploy-evm.js"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.13.0"
+  },
+  "devDependencies": {
+    "hardhat": "^2.22.1"
+  }
+}
